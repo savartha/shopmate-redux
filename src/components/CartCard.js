@@ -4,7 +4,7 @@ import { remove } from "../store/cartSlice";
 import { useDispatch } from "react-redux";
 
 export const CartCard = ({product}) => {
-  const {name, price, image} = product;
+  const {name, price} = product;
   const dispatch = useDispatch();
 
   return (
